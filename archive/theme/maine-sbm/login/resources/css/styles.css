@@ -78,32 +78,7 @@ body {
 }
 
 .button,
-input[type="submit"] {
-  border: none;
-  background-color: #3d5d6f;
-  font-family: inherit;
-  padding: 0;
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  font-size: 1rem;
-  padding: 0.5rem 0.625rem;
-  text-decoration: none;
-  border-radius: 0.125rem;
-  line-height: 1;
-  min-width: 10ch;
-  width: min-content;
-  text-align: center;
-  border-width: 0.125rem;
-  border-style: solid;
-  border-color: #3d5d6f;
-  border-radius: 4px;
-  color: #ffffff;
-}
-
-.button,
+input[type="submit"],
 input[type="button"] {
   border: none;
   background-color: transparent;
@@ -124,9 +99,6 @@ input[type="button"] {
   text-align: center;
   border-width: 0.125rem;
   border-style: solid;
-  border-color: #3d5d6f;
-  border-radius: 4px;
-  color: #3d5d6f;
 }
 
 input[type="text"],
@@ -248,14 +220,4 @@ header #kc-page-title {
   align-items: center;
   justify-content: center;
   gap: 8px;
-}
-
-.broker-box {
-  display: flex;
-  align-items: center;
-  background: #cce5f3;
-  border-radius: 3px;
-  margin-top: 2rem;
-  padding: 1rem;
-  gap: 0.5rem;
 }
